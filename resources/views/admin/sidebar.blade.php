@@ -16,7 +16,7 @@
                     <a href="http://100-mai.com/admin/posts?search=pops">
                         Pops
                     </a>            
-                    <a href="http://100-mai.com/admin/posts?search=r&b">
+                    <a href="http://100-mai.com/admin/posts?search=rb">
                         R&B
                     </a>            
                     <a href="http://100-mai.com/admin/posts?search=danceable">
