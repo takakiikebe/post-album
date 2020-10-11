@@ -20,7 +20,7 @@
     <label for="genre" class="col-md-4 control-label">{{ 'Genre' }}</label>
     <div class="col-md-6">
         <select name="genre" class="form-control" id="genre" >
-    @foreach (json_decode('{"action": "Action", "serious": "Serious", "shocking": "Shocking", "comedy": "Comedy", "heartful": "Heartful", "romance": "Romance"}', true) as $optionKey => $optionValue)
+    @foreach (json_decode('{"hard rock": "Hard Rock", "soft rock": "Soft Rock", "pops": "Pops", "r&b": "R&B", "danceable": "Danceable", "jazz": "Jazz", "music": "Music"}', true) as $optionKey => $optionValue)
         <option value="{{ $optionKey }}" {{ (isset($post->genre) && $post->genre == $optionKey) ? 'selected' : ''}}>{{ $optionValue }}</option>
     @endforeach
 </select>
