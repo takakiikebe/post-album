@@ -7,6 +7,7 @@
         <div class="card-body">
             <ul class="nav" role="tablist">
                 <li role="presentation">
+                    [ Genre ]
                     <a href="http://100-mai.com/admin/posts?search=hard rock">
                         Hard Rock
                     </a>            
@@ -29,7 +30,7 @@
                         Other Music
                     </a>            
                 </li>
-                   ----------------------------
+                   ------------------------
             </ul>
             <ul class="nav" role="tablist">         
                 <li role="presentation">
