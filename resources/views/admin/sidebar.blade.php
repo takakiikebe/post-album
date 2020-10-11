@@ -7,25 +7,25 @@
         <div class="card-body">
             <ul class="nav" role="tablist">
                 <li role="presentation">
-                    <a href="http://100-mai.com/admin/">
+                    <a href="http://100-mai.com/admin/postlists/1?">
                         Hard Rock
                     </a>            
-                    <a href="http://100-mai.com/admin/">
+                    <a href="http://100-mai.com/admin/postlists/2?">
                         Soft Rock
                     </a>            
-                    <a href="http://100-mai.com/admin/">
+                    <a href="http://100-mai.com/admin/postlists/3?">
                         Pops
                     </a>            
-                    <a href="http://100-mai.com/admin/">
+                    <a href="http://100-mai.com/admin/postlists/4?">
                         R&B
                     </a>            
-                    <a href="http://100-mai.com/admin/">
+                    <a href="http://100-mai.com/admin/postlists/5?">
                         Danceable
                     </a>            
-                    <a href="http://100-mai.com/admin/">
+                    <a href="http://100-mai.com/admin/postlists/6?">
                         Jazz
                     </a>            
-                    <a href="http://100-mai.com/admin/">
+                    <a href="http://100-mai.com/admin/postlists/7?">
                         Other Music
                     </a>            
                 </li>
