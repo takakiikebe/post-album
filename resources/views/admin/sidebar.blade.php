@@ -7,15 +7,33 @@
         <div class="card-body">
             <ul class="nav" role="tablist">
                 <li role="presentation">
-                    <a href="{{ url('/admin') }}">
-                        Dashboard
+                    <a href="http://100-mai.com/admin/">
+                        Hard Rock
+                    </a>            
+                    <a href="http://100-mai.com/admin/">
+                        Soft Rock
+                    </a>            
+                    <a href="http://100-mai.com/admin/">
+                        Pops
+                    </a>            
+                    <a href="http://100-mai.com/admin/">
+                        R&B
+                    </a>            
+                    <a href="http://100-mai.com/admin/">
+                        Danceable
+                    </a>            
+                    <a href="http://100-mai.com/admin/">
+                        Jazz
+                    </a>            
+                    <a href="http://100-mai.com/admin/">
+                        Other Music
                     </a>            
                 </li>
             </ul>
             <ul class="nav" role="tablist">         
                 <li role="presentation">
                     <a href="http://mylist24.com/">
-                        Site
+                        All Site
                     </a>
                         //     
                      <a href="http://album-list.com/">
