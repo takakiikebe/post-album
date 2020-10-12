@@ -26,6 +26,9 @@
                     <a href="http://100-mai.com/admin/posts?search=jazz">
                         Jazz
                     </a>            
+                    <a href="http://100-mai.com/admin/posts?search=new age">
+                        New Age
+                    </a>            
                     <a href="http://100-mai.com/admin/posts?search=music">
                         Other Music
                     </a>            
