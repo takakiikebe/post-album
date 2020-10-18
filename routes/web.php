@@ -64,3 +64,7 @@ Route::get('/postlist2/{id}', function ($id) {
         'posts' => Post::where('listing_id', $id)->get(),
     ]);
 }); 
+
+Route::get('/postlist3/{id}', function ($id) {
+    return redirect()->to('/admin/posts/?listing_id=$id');
+});
