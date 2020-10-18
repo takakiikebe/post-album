@@ -5,7 +5,7 @@ namespace App\Http\Controllers\Admin;
 use App\Http\Controllers\Controller;
 use App\Http\Requests;
 use App\Jobs\ListingCreated;
-use App\Category;
+use App\Listing;
 use Illuminate\Http\Request;
 
 class ListingsController extends Controller
