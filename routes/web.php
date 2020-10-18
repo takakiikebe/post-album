@@ -1,6 +1,7 @@
 <?php
 
 Use App\Category;
+Use App\Listing;
 Use App\Post;
 use Illuminate\Http\Request;
 
@@ -24,6 +25,10 @@ Route::get('/category', function () {
     return redirect()->to('/admin/categories');
 });
 
+Route::get('/listing', function () {
+    return redirect()->to('/admin/listings');
+});
+
 Route::get('/log', function () {
     Log::info('This is an info log.');
     
@@ -36,6 +41,8 @@ Route::resource('admin/posts', 'Admin\\PostsController');
 
 Route::resource('admin/categories', 'Admin\\CategoriesController');
 
+Route::resource('admin/listings', 'Admin\\ListingsController');
+
 /**
     * Show Category-Postinfo Dashboard
     */
@@ -44,5 +51,16 @@ Route::get('/postlist/{id}', function ($id) {
     return view('postlists', [
         'categories' => Category::where('id', $id)->get(),
         'posts' => Post::where('category_id', $id)->get(),
+    ]);
+}); 
+
+/**
+    * Show Listing-Postinfo Dashboard
+    */
+Route::get('/postlist2/{id}', function ($id) {
+    error_log("INFO: get /listing/id");
+    return view('postlists', [
+        'listings' => Listing::where('id', $id)->get(),
+        'posts' => Post::where('listing_id', $id)->get(),
     ]);
 }); 
