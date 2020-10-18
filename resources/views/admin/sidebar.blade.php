@@ -7,12 +7,25 @@
         <div class="card-body">
             <ul class="nav" role="tablist">
                 <li role="presentation">
+                    [ Listing ]
+                    <a href="http://100-mai.com/admin/posts?listing_id=1">
+                        洋楽名盤発掘100
+                    </a>            
+                    <a href="http://100-mai.com/admin/posts?listing_id=2">
+                        何となくジャズ100
+                    </a>            
+                    <a href="http://100-mai.com/admin/posts?listing_id=3">
+                        邦楽名盤発掘100
+                    </a>            
+                </li>
+                   ------------------------
+                <li role="presentation">
                     [ Genre ]
                     <a href="http://100-mai.com/admin/posts?search=hard rock">
-                        Hard Rock
+                        Hard_Rock
                     </a>            
                     <a href="http://100-mai.com/admin/posts?search=soft rock">
-                        Soft Rock
+                        Soft_Rock
                     </a>            
                     <a href="http://100-mai.com/admin/posts?search=pops">
                         Pops
@@ -27,8 +40,20 @@
                         Jazz
                     </a>            
                     <a href="http://100-mai.com/admin/posts?search=new age">
-                        New Age
+                        New_Age
+                    </a> 
+                    <a href="http://100-mai.com/admin/posts?search=kayokyoku">
+                        KayoKyoku
                     </a>            
+                    <a href="http://100-mai.com/admin/posts?search=folk">
+                        Folk
+                    </a>
+                    <a href="http://100-mai.com/admin/posts?search=new music">
+                        New_Music
+                    </a>            
+                    <a href="http://100-mai.com/admin/posts?search=jpop">
+                        JPOP
+                    </a> 
                     <a href="http://100-mai.com/admin/posts?search=music">
                         Other Music
                     </a>            
