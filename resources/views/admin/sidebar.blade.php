@@ -8,13 +8,13 @@
             <ul class="nav" role="tablist">
                 <li role="presentation">
                     [ Listing ]
-                    <a href="http://100-mai.com/admin/posts?listing_id=1">
+                    <a href="http://100-mai.com/admin/posts?search=洋楽">
                         洋楽名盤発掘100
                     </a>            
-                    <a href="http://100-mai.com/admin/posts?listing_id=2">
+                    <a href="http://100-mai.com/admin/posts?search=何となくジャズ">
                         何となくジャズ100
                     </a>            
-                    <a href="http://100-mai.com/admin/posts?listing_id=3">
+                    <a href="http://100-mai.com/admin/posts?search=邦楽">
                         邦楽名盤発掘100
                     </a>            
                 </li>
